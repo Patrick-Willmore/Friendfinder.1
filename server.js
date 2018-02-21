@@ -1,8 +1,8 @@
 var express = require("express");
 var bodyParser = require("body-parser");
 
-// require("./app/routing/apiroutes")(app);
-// require("./app/routing/htmlroutes")(app);
+require("./app/routing/apiRoutes")(app);
+require("./app/routing/htmlRoutes")(app);
 
 
 
